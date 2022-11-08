@@ -5,7 +5,7 @@
     <meta charset="iso-8859-1">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>NEED TITLE</title>
+    <title>Subscribe: Demand Gen Newsletter</title>
     <!--google_analytics-->
 
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
@@ -29,7 +29,7 @@
     <link href="https://css.marketingprofs.com/css/v4/mp.min.css" rel="stylesheet">
 
     <!-- Custom page styles -->
-    <link rel="stylesheet" href="./assets/styles.css">
+    
 
     <script src="https://code.jquery.com/jquery-latest.min.js"></script>
     <script type="text/javascript" src="https://s.marketingprofs.com/inc/jscript/ajax.js"></script>
@@ -38,18 +38,50 @@
         src="https://api.marketingprofsu.com/lrs/jscript/transaction.js?t=4/14/2019 11:12:12 PM"></script>
     <script>varpagetitle = "%%TITLE%%"</script>
     <!-- BEGIN: Open Graph Meta Data -->
-    <meta property="og:title" content="NEED TITLE" />
+    <meta property="og:title" content="Subscribe: Demand Gen Newsletter " />
     <meta property="og:type" content="website" />
-    <meta property="og:image" content="https://i.marketingprofs.com/assets/images/site/meta/mpt_testA_meta_1200x630.jpg" />
+    <meta property="og:image"
+        content="https://i.marketingprofs.com/assets/images/site/meta/mpt_testA_meta_1200x630.jpg" />
     <meta property="og:url" content="https://www.marketingprofs.com" />
-    <meta property="og:description" content="Get the latest B2B Marketing podcasts, articles, infographics, research, and more delivered straight to your inbox 3x per week when you subscribe to MarketingProfs Today." />
+    <meta property="og:description"
+        content="Subscribe today to get MarketingProfs' monthly demand generation content straight to your inbox!" />
     <meta property="og:site_name" content="MarketingProfs" />
     <meta property="fb:admins" content="100001357263258" />
     <!-- End: Open Graph Meta Data -->
 
-    <meta name="description" content="Get the latest B2B Marketing podcasts, articles, infographics, research, and more delivered straight to your inbox 3x per week when you subscribe to MarketingProfs Today." />
+    <meta name="description"
+        content="Subscribe today to get MarketingProfs' monthly demand generation content straight to your inbox!" />
     <script language="javascript" type="text/javascript"
         src="https://cdns.gigya.com/js/socialize.js?apiKey=2_uPUaN2hpAhlK4g9QTly75isxF5ADxoaZkN64ECjfA2LxxZmXJtqJNOKqoBMngLa0"></script>
+
+    <style>
+        :root {
+            --jay-blue: #00549a;
+            --mp-fuchsia: #d61c5b;
+            --mp-tang: #f9763d;
+            --mp-light-blue: #dee5f0;
+            --mp-slate-grey: #b0aeb2;
+        }
+
+        .hero-container {
+            background: url("./assets/demandgen-rocket.svg"), linear-gradient(180deg, var(--mp-tang) 80%, transparent 80%);
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: left;
+        }
+
+        .hero-container h1 {
+            font-size: 1.75rem;
+        }
+
+        .hero-container p {
+            font-size: 1.25rem;
+        }
+
+        .card-box {
+            background-color: #fff;
+        }
+    </style>
 
 </head>
 
@@ -292,14 +324,14 @@
                 <div class="row flex-column align-items-center">
                     <div class="col-12 col-lg-10 col-xl-8 mb-4 d-flex flex-column align-items-center">
                         <div class="col-12 col-sm-10 col-md-8 col-lg-7">
-                            <img src="./assets/demandgen-today-logo.svg" alt="DemandGen Today Logo"
-                                class="w-100">
+                            <img src="./assets/demandgen-today-logo.svg" alt="DemandGen Today Logo" class="w-100">
                         </div>
                         <h1 class="text-white text-center">
-                            Stay relevant on the demand gen topics you need most from the best in the biz. 
+                            Stay relevant on the demand gen topics you need most from the best in the biz.
                         </h1>
                         <p class="text-white text-center">
-                            A monthly email newsletter for modern B2B marketers, <br class="d-none d-sm-block d-md-block"> by modern B2B marketers.
+                            A monthly email newsletter for modern B2B marketers, <br
+                                class="d-none d-sm-block d-md-block"> by modern B2B marketers.
                         </p>
                     </div>
                     <div class="col-12 col-md-10 col-lg-7">
@@ -421,7 +453,7 @@
         $(document).ready(function () {
 
             if ($("#lpuid").val() != 0) {
-                $("#frmsignup").html("<p>Looks like you're already a MarketingProfs member! Thanks for being a part of this community. While you're here, check out our <a href='/events'>upcoming events</a>.</p>")
+                $("#frmsignup").html("<p>Looks like you're already subscribed to the MarketingProfs DemandGen Today newsletter! Thanks for being a part of this community. While you're here, check out our <a href='/events'>upcoming events</a>.</p>")
             }
         });
     </script>
